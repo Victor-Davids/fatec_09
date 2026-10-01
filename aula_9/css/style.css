@@ -1,0 +1,43 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.conteiner p{
+    text-align: center;
+    color:blue;
+    padding: 17px;
+}
+
+.conteiner .campo{
+    margin-bottom: 15px;
+}
+
+.conteiner .campo label{
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: purple;
+}
+
+.conteiner .campo input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#444;
+    box-sizing: border-box;
+}
+
+.conteiner button{
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.conteiner button:hover{
+    background-color: #005fa3;
+}
